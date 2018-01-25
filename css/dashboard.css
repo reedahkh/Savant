@@ -1,5 +1,6 @@
 body {
   font-size: .875rem;
+  margin-bottom: 5px; 
 }
 
 .feather {
@@ -20,6 +21,7 @@ body {
   z-index: 100; /* Behind the navbar */
   padding: 0;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  margin-top: 60px;
 }
 
 .sidebar-sticky {
@@ -91,3 +93,64 @@ body {
 
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+/* .btn-group{
+  margin-left: 5px;
+  margin-bottom: -100px;
+} */
+
+
+.dropdown:hover{
+  color:#212529;
+  background-color:#e2e6ea;
+  border-color:#dae0e5;
+}
+
+
+.fa-bell-o{
+  font-size: 30px;
+  color: rgb(193, 193, 190);
+  margin-left: 40px;
+  margin-right: 30px;
+}
+.btn1{
+  margin-left: 10px;
+  margin-bottom: -200px;
+}
+.fa-tachometer,.fa-sliders,.fa-users{
+  color: green;
+}
+.trial{
+  margin-left: 50px;
+}
+
+.navbar{
+  background-color: white;
+}
+/* .btn-outline-danger:hover{
+  color:#dc3545;
+  background-color:#fff;
+  border-color:#dc3545  
+}
+.btn-outline-danger{
+  background: #fff;
+  text-decoration: none;
+} */
+.facebook{
+  color: blue;
+  font-size: 24px;
+}
+.btn-user{
+background-color: transparent;
+
+}
+.btn-user:hover{
+  background-color: #fff;
+}
+.mr-auto{
+  padding-top:10px;
+}
+
+.btn-plus{
+  margin-left: 760px;
+}
