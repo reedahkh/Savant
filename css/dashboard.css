@@ -153,8 +153,12 @@ background-color: transparent;
 
 }
 .btn-user:hover{
-  background-color:;
-  opacity: 6;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
 }
 .mr-auto{
   padding-top:10px;
