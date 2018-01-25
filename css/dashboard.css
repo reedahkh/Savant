@@ -117,15 +117,19 @@ body {
   margin-left: 10px;
   margin-bottom: -200px;
 }
-.fa-tachometer,.fa-sliders,.fa-users{
+.tach{
   color: green;
 }
 .trial{
   margin-left: 50px;
 }
 
-.navbar{
-  background-color: white;
+.navbar-brand{
+  background-color:#000;
+  text:#fff;
+}
+.btn-outline-dark{
+  margin-right: 5px;
 }
 /* .btn-outline-danger:hover{
   color:#dc3545;
@@ -140,12 +144,17 @@ body {
   color: blue;
   font-size: 24px;
 }
+.twitter{
+  color:#0084b4;
+  font-size: 24px;
+}
 .btn-user{
 background-color: transparent;
 
 }
 .btn-user:hover{
-  background-color: #fff;
+  background-color:;
+  opacity: 6;
 }
 .mr-auto{
   padding-top:10px;
@@ -153,4 +162,7 @@ background-color: transparent;
 
 .btn-plus{
   margin-left: 760px;
+}
+.fa-user-circle-o{
+  color: rgb(193, 193, 190);
 }

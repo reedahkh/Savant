@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md flex-md-nowrap sticky-top navbar-light fixed-top p-0">
-        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Jaiz Bank</a>
+    <nav class="navbar navbar-expand-md flex-md-nowrap sticky-top bg-dark navbar-dark fixed-top p-0">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0 text-white" href="#">Jaiz Bank</a>
         <div class="collapse navbar-collapse" id="navbarsExample07">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item">
@@ -136,6 +136,7 @@
                   <a class="dropdown-item" href="#">Pptx</a>
                 </div>
             </div>
+            <button type="button" class="btn btn-outline-dark">Share</button>
             <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
               <span data-feather="calendar"></span>
               This week
@@ -143,12 +144,13 @@
           </div>
         </div>
 
-        <i class="fa fa-facebook facebook fa-fw"></i> 
+        <h5>Facebook Overview</h5>
         <div class="container">
           <div class="row">
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
+                    <i class="fa fa-facebook-official facebook" aria-hidden="true"></i> 
                   <h5 class="card-title text-center">Growth of Followers</h5>
 
                   <canvas class="my-4" id="myChart" width="900" height="500"></canvas>
@@ -159,6 +161,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
+                    <i class="fa fa-facebook-official facebook" aria-hidden="true"></i>
                   <h5 class="card-title text-center">Gender Distribution</h5>
 
                   <canvas class="my-4" id="pChart" width="900" height="500"></canvas>
@@ -174,6 +177,7 @@
           <div class="col-md-6">
             <div class="card">
               <div class="card-body">
+                  <i class="fa fa-facebook-official facebook" aria-hidden="true"></i> 
                 <h5 class="card-title text-center">Location of Followers</h5>
 
                 <canvas class="my-4" id="Chart" width="900" height="500"></canvas>
@@ -184,6 +188,7 @@
           <div class="col-md-6">
             <div class="card">
               <div class="card-body">
+                  <i class="fa fa-facebook-official facebook" aria-hidden="true"></i> 
                 <h5 class="card-title text-center">Popularity Distribution</h5>
 
                 <canvas class="my-4" id="lChart" width="900" height="500"></canvas>
@@ -195,12 +200,13 @@
 
       <!-- Twitter Survey -->
 
-      <i class="fa fa-twitter facebook fa-fw"></i> <hr>
+      <h5>Twitter Overview</h5> <hr>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="card">
               <div class="card-body">
+                  <i class="fa fa-twitter-square twitter" aria-hidden="true"></i>
                 <h5 class="card-title text-center">Growth of Followers</h5>
 
                 <canvas class="my-4" id="mChart" width="900" height="500"></canvas>
@@ -211,6 +217,7 @@
           <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
+                    <i class="fa fa-twitter-square twitter" aria-hidden="true"></i>
                   <h5 class="card-title text-center">Gender Distribution</h5>
 
                   <canvas class="my-4" id="peChart" width="900" height="500"></canvas>
@@ -224,6 +231,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
+                    <i class="fa fa-twitter-square twitter" aria-hidden="true"></i>
                   <h5 class="card-title text-center">Location of Followers</h5>
   
                   <canvas class="my-4" id="tpChart" width="900" height="500"></canvas>
@@ -234,6 +242,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
+                    <i class="fa fa-twitter-square twitter" aria-hidden="true"></i>
                   <h5 class="card-title text-center">Popularity Distribution</h5>
   
                   <canvas class="my-4" id="zChart" width="900" height="500"></canvas>
@@ -245,12 +254,13 @@
 
         <!-- Instagram Survey -->
 
-        <i class="fa fa-instagram facebook fa-fw"></i> <hr>
+       <h5>Instagram Overview</h5> <hr>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="card">
               <div class="card-body">
+                  <i class="fa fa-instagram facebook fa-fw"></i>
                 <h5 class="card-title text-center">Growth of Followers</h5>
 
                 <canvas class="my-4" id="meeChart" width="900" height="500"></canvas>
@@ -261,6 +271,7 @@
           <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
+                    <i class="fa fa-instagram facebook fa-fw"></i>
                   <h5 class="card-title text-center">Gender Distribution</h5>
 
                   <canvas class="my-4" id="peeChart" width="900" height="500"></canvas>
@@ -274,6 +285,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
+                    <i class="fa fa-instagram facebook fa-fw"></i>
                   <h5 class="card-title text-center">Location of Followers</h5>
   
                   <canvas class="my-4" id="tChart" width="900" height="500"></canvas>
@@ -284,6 +296,7 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body">
+                    <i class="fa fa-instagram facebook fa-fw"></i>
                   <h5 class="card-title text-center">Popularity Distribution</h5>
   
                   <canvas class="my-4" id="zeChart" width="900" height="500"></canvas>
@@ -723,30 +736,5 @@
 
 
 
-
-  <!-- Start of Async Drift Code -->
-<script>
-    !function() {
-      var t;
-      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-      t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-      t.factory = function(e) {
-        return function() {
-          var n;
-          return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-        };
-      }, t.methods.forEach(function(e) {
-        t[e] = t.factory(e);
-      }), t.load = function(t) {
-        var e, n, o, i;
-        e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-      });
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('z449gny32ztp');
-    </script>
-    <!-- End of Async Drift Code -->
     </body>
     </html>
