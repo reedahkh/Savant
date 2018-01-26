@@ -21,7 +21,7 @@ body {
   z-index: 100; /* Behind the navbar */
   padding: 0;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .sidebar-sticky {
@@ -150,6 +150,7 @@ body {
 }
 .btn-user{
 background-color: transparent;
+margin-top: -3px;
 
 }
 .btn-user:hover{
@@ -161,7 +162,7 @@ background-color: transparent;
   outline:none;
 }
 .mr-auto{
-  padding-top:10px;
+  padding-top:5px;
 }
 
 .btn-plus{
@@ -169,4 +170,18 @@ background-color: transparent;
 }
 .fa-user-circle-o{
   color: rgb(193, 193, 190);
+}
+img{
+  width: 337px;
+  height: 249px;
+
+}
+.fa-user-circle-o{
+  line-height: px;
+  margin-bottom: 5px;
+}
+
+.img-01{
+  height: 24px;
+  margin-left: -34%;
 }
