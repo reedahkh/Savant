@@ -163,6 +163,7 @@ margin-top: -3px;
 }
 .mr-auto{
   padding-top:5px;
+  
 }
 
 .btn-plus{
@@ -184,4 +185,70 @@ img{
 .img-01{
   height: 24px;
   margin-left: -34%;
+}
+.img-00{
+  margin-top: -42px;
+}
+
+.lol1{
+  height: 70px;
+}
+.card-img-top{
+  height: 60px;
+}
+
+.first-card{
+ padding-top: 8px;
+ background-color: #3b5998;
+ border-radius: 0;
+}
+.second-card{
+  padding-top: 8px;
+  background-color: #55acee;
+  border-radius: 0;
+}
+.sidebar2{
+  background-color: #f2f2f2;
+  height: 495px;
+}
+.img-adjust{
+  height: 35px;
+  width: 35px;
+  margin-left: 50px;
+}
+.third-card{
+  padding-top: 25px;
+  background-color: #714778;
+  border-radius: 0;
+}
+.modal-content{
+  height: 500px;
+}
+.push{
+  margin-top: 50px;
+  padding-right: 30px;
+}
+.qwe{
+  text-align: justify;
+}
+.modal-body{
+  padding-top: 0;
+}
+.fa-trash-o{
+  margin-left: -50px;
+  font-size: 18px;
+}
+.fa-user-circle{
+  margin-left: -32px;
+  font-size: 18px;
+}
+
+@media screen and (max-width:340px){
+ 
+.btn-plus{
+  margin-left: 250px;
+}
+ .h2{
+    color: red;
+  }
 }
