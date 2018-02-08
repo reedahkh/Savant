@@ -27,8 +27,7 @@ margin-top: -3px;
     color: rgb(193, 193, 190);
     margin-left: 40px;
     margin-right: 30px;
-    border-right: #999 solid 1px;
-    border-left: #999 solid 1px;
+  
   }
 
   .btn-plus{
@@ -40,6 +39,9 @@ margin-top: -3px;
 
   .new-nav{
     margin-right: 90px;
+  }
+  .border-bottom{
+    padding-top:70px;
   }
 
   .jaiz{
@@ -61,3 +63,18 @@ margin-top: -3px;
   .source{
     margin-left: 150px;
   }
+.overflowing-col{
+  padding-top: 5.3%;
+}
+
+  @media screen and (max-width:600px){
+  
+   .source{
+     margin-left: 40px;
+     padding-top: 10%;
+   }
+   .overflowing-col{
+  padding-top: 3%;
+}
+ 
+ }
