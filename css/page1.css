@@ -1,6 +1,6 @@
 html,body{
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    /*padding: 0;*/
     font-family: 'Roboto', sans-serif;
 }
 
@@ -8,6 +8,12 @@ a{
     text-decoration: none;
     color: #f2f2f2;
 }
+.dropdown:hover{
+    color:#fff;
+    /*background-color:#e2e6ea;*/
+    background-color: #242424;
+    border-color:#242424;
+  }
 
 .container{
     width: 70%;
@@ -38,6 +44,7 @@ a{
     font-size: 50px;
     color: #F2F2F2;
     text-align: center;
+    margin:auto;
 }
 
 .red{
@@ -81,4 +88,26 @@ a{
 .thumbnail-image{
     margin-top: 50%;
     margin-bottom: 50%;
+}
+
+.page-link:hover{
+    background-color: #fff;
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 90%;
+        margin-left: 3%;
+        /*display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;*/
+    }
+    .container-1{
+        margin-left: 6%;
+    }
 }

@@ -7,18 +7,94 @@
     <meta name="author" content="">
     <!-- Icons -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    
 
     <title>Savant Social Dashboard</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- Custom css -->
+
+    <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
 
   </head>
 
   <body >
+  <!-- MODAL DONT EDIT CODE ABOVE THIS -->
+
+
+  <!-- [ Modal #2 ] -->
+  <div class="modal fade" id="myModal-2" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body"> 
+          <div class="row">
+            <div class="col-12 col-md-4 sidebar2">
+              
+              <P style="color:#828282;">ADD SOCIAL MEDIA HANDLES</P>
+              <a class="nav-link  btn bg-transparent text-dark " href="#" style="color: #000 %;"  data-toggle="modal" data-target="#myModal" data-dismiss="modal">
+                    <i class="fa fa-user-circle fa-fw"></i>
+                    Connect your profile<span class="sr-only">(current)</span>
+                  </a>
+
+                  <a  class=" btn nav-link  btn-active" href="del.html" style="color: #ff6600; "  data-toggle="modal" data-target="#demo-1" data-dismiss="modal">
+                        <i class="fa fa-trash-o fa-fw"></i>
+                        Delete your profile<span class="sr-only">(current)</span>
+                  </a>
+
+            </div>
+            <div class="col-12 col-md-8">
+              <h2 class="text-left fi" style="padding-top: 5%; font-size: 2.5rem; font-weight: 400;">Delete Your Profiles</h2>
+              <p class="qwe">Delete any of your social profiles to stop monitoring your performance and viewing analytics</p>
+              <!-- table -->
+              <div class="table-responsive">
+                <caption class="h1">Facebook</caption>
+                <table class="table table-bordered table-hover table-sm">
+                  <tbody>
+                    <tr class="table-active">
+                      <th scope="row">
+                        <input type="checkbox">
+                      </th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        <input type="checkbox">
+                      </th>
+                      <td> </td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        <input type="checkbox">
+                      </th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DONT EDIT CODE ABOVE THIS -->
+
+
+
+
+
         <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top sticky-top flex-md-nowrap p-0">
                 <a class="navbar-brand col-xs-3 col-md-2 mr-0 text-white" href="welcome.html">Jaiz Bank</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +107,13 @@
                                 <button class="btn btn-sm btn-success btn-plus"><i class="fa fa-plus fa-fw"></i><a href="add-profile.html" class="profile">Add Profile</button></a> 
                          </li>
                         <li class="nav-item">
-                            <i class="fa fa-bell-o"></i>
+                            <i class="fa fa-bell-o ml-3"></i>
                         </li>
-                        <li class="nav-item dropdown">
-                            <button class="btn btn-user btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i>
+                        <li class="nav-item dropdown new-nav">
+                            <button class="btn btn-user btn-sm " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-user-circle-o fa-2x ml-3" aria-hidden="true"></i> <i class="fa fa-caret-down text-white" style="font-size: 20px"></i>
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <div class="dropdown-menu text-white" aria-labelledby="dropdown07">
                                 <a class="dropdown-item" href="#">Settings</a>
                                 <a class="dropdown-item" href="#">Upgrade Plan</a>
                                 <a class="dropdown-item" href="#">Signout</a>
@@ -48,32 +124,26 @@
             </nav>
     
        
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4 ">
-                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-                    <h1 class="h2">Home</h1>
-                    <div class="row">
-                         
-                    </div>
-                </div>
+            <main role="main" class="ml-5 mr-5 pt-4 px-4 ">
+
 
                 <div class="text-center">
                         <h5>Hi Ja'iz,Would you like to monitor ?</h5>
                         <p class="text-muted"></p>
                     </div>
-                    <br><br><br>
-                    <div class="card-deck text-center">
-                        <div class="card"><br>
-                            <img src="img/savant-1.png" alt="" srcset="">
+                    <div class="card-deck text-center" >
+                        <div class="card" style="border-radius: 0;"><br>
+                            <img src="img/web-analytics (1).svg" width="700"  class="img-fluid" style=" margin-top:-1.5em;">
                             <div class="card-body">
                                 <h5 class="card-title">My Company</h5>
                                 <p class="card-text text-muted">Monitor your brand or<br> product's online presence.</p><br><br>
-                                <button class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#myModal"> Start</button>
+                                <button class="btn btn-sm btn-outline-success" data-toggle="modal" type="button" data-target="#myModal"> Start</button>
                             </div>
                         </div>
                           <!-- The Modal -->
-<div class="modal fade" id="myModal">
+<div class="modal fade" id="myModal" tabindex="-1">
         <div class="modal-dialog modal-lg">
-          <div class="modal-content">
+          <div class="modal-content" style="border-radius: 0px;">
 
       
             <!-- Modal body -->
@@ -83,43 +153,47 @@
             <div class="row ">  
                 <div class="col-12 col-md-4 sidebar2">
                       <P style="color:#828282;">ADD SOCIAL MEDIA HANDLES</P><br>
-                      <a class="nav-link active" href="#" style="color: #ff6600" onclick="">
+                      <a class="nav-link btn btn-active" href="#" style="color: #ff6600; margin-top: -5%;" onclick="">
                             <i class="fa fa-user-circle fa-fw"></i>
                             Connect your profile<span class="sr-only">(current)</span>
                           </a>
-
-                          <a class="nav-link" href="del.html" style="color: #000" onclick="" data-toggle="modal" data-target="#meModal">
-                                <i class="fa fa-trash-o fa-fw"></i>
-                                Delete your profile<span class="sr-only">(current)</span>
+                          <a class="nav-link btn bg-transparent" href="#" style="color: #000" onclick=""  data-toggle="modal" data-target="#myModal-2" data-dismiss="modal">
+                            <i class="fa fa-trash-o fa-fw"></i>
+                            Delete your profile<span class="sr-only">(current)</span>
                           </a>
+
+                          
                 </div>
                 <div class="col-12 col-md-8">
-                    <h2>Connect Your Profile</h2>
+                    <h2 class="text-left fi" style="padding-top: 5%; font-size: 2.5rem; font-weight: 400;">Connect Your Profile</h2>
                     <p class="qwe">Connect any of your social profiles to start monitoring your performance and viewing analytics</p>
                     
                         <div class="row push">
                             <div class=" col-12 col-sm-4 face-div">
                                     <div class="card first-card" style="width: 9rem; height: 9rem;">
-                                            <img class="card-img-top " src="img/facebook-logo.png" alt="Card image cap">
+                                            <!-- <img class="card-img-top " src="img/facebook-logo.png" alt="Card image cap"> -->
+                                            <i class="fa fa-facebook fa-3x text-white"></i>
                                             <div class="card-body">
-                                            <button>Connect</button>                          
+                                            <button class="btn-connect-1">Connect</button>                          
                                             </div>
                                         </div>
                             </div>
                             <div class=" col-12 col-sm-4">
                                     <div class="card second-card" style="width: 9rem; height: 9rem;">
-                                            <img class="card-img-top img-adjustable" src="img/twitter-logo.png" alt="Card image cap" width="25px;">
+                                            <!-- <img class="card-img-top img-adjustable" src="img/twitter-logo.png" alt="Card image cap" width="25px;"> -->
+                                             <i class="fa fa-twitter fa-3x text-white"></i>
                                             <div class="card-body">
-                                            <button>Connect</button>                          
+                                            <button class="btn-connect-2">Connect</button>                          
                                             </div>
                                         </div>
                             </div>
 
                                  <div class=" col-12 col-sm-4">
                                         <div class="card third-card" style="width: 9rem; height: 9rem;">
-                                            <img class="card-img-top img-adjust" src="img/instagram-icon.png" alt="Card image cap">
+                                            <!-- <img class="card-img-top img-adjust" src="img/instagram-icon.png" alt="Card image cap"> -->
+                                            <i class="fa fa-instagram fa-3x text-white"></i>
                                            <div class="card-body">
-                                            <button>Connect</button>                          
+                                            <button class="btn-connect-3">Connect</button>                          
                                             </div>
                                         </div>
                 </div>            </div>
@@ -127,7 +201,7 @@
 
                         </div> 
             </div>     
-            </div> -->
+            </div> 
         <!-- End of first Modal -->
                   
 
@@ -137,8 +211,8 @@
       </div>
 
 
-                        <div class="card"><br>
-                            <img src="img/image1.png" alt="" srcset="">
+                        <div class="card" style="border-radius: 0; margin-top:1em;"><br>
+                            <img src="img/google-analytics-partners.svg" width="700" class="img-fluid" style=" margin-top:-1.5em;">
                             <div class="card-body">
                                 <h5 class="card-title">A competitor</h5>
                                 <p class="card-text text-muted">Monitor your competitiors<br> online presence.</p><br><br>
@@ -146,8 +220,8 @@
                                 <a class="btn btn-sm btn-outline-success " href="reach.html">Start</a>
                             </div>
                         </div>
-                        <div class="card"><br><br>
-                            <img src="img/savant-3.jpg" alt="" srcset="" class="img-00">
+                                                <div class="card" style="border-radius: 0; ">
+                            <img src="img/four-data-analytics-trends-CP.svg" width="700" class=" img-fluid">
                             <div class="card-body">
                                 <h5 class="card-title">Trends</h5>
                                 <p class="card-text text-muted">Monitor trend topics on<br> social media</p><br><br>
@@ -164,6 +238,14 @@
             <!-- Bootstrap core JavaScript
             ================================================== -->
             <!-- Placed at the end of the document so the pages load faster -->
+         <!--    
+<script>
+    $('.modal-switch-btn').click(function(){
+            var prevPopup = $(this).attr("data-previouspopup-toggle");
+            $(prevPopup).modal('show');
+        });
+</script> -->
+
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
