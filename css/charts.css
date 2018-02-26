@@ -170,10 +170,14 @@ hr{
   color: cornflowerblue;
 }
 
+.pagination{
+  justify-content: center;
+  margin-top: -33px;
+}
 
-/* .word{
-  margin-left: 10%;
-} */
+.button-group{
+  margin-bottom: 60px;
+}
 
 
 
