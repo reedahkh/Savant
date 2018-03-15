@@ -12,8 +12,13 @@
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"> -->
+
 
   <!-- Custom CSS -->
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/aos.css" rel="stylesheet">
   <link href="css/dashboard.css" rel="stylesheet">
 </head>
 
@@ -50,18 +55,18 @@
         </div>
       </div>
     </nav>
-  <div class="container-fluid">
+  <div class="container-fluid ">
     <div class="row">
       <nav class="col-md-2 d-none d-md-block bg-light sidebar">
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
-            <li class="nav-item" >
+            <li class="nav-item animated bounceIn" >
               <a class="nav-link active" href="savantsocial.html" style="color: #ff6600" onclick="">
                 <i class="fa fa-home fa-fw"></i>
                 Get Started <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item animated bounceIn">
               <a class="nav-link" href="dashboard.html">
                 <i class="fa fa-tachometer fa-fw"></i>
                 Dashboard
@@ -74,19 +79,19 @@
             </a>
           </h6>
           <ul class="nav flex-column mb-2">
-            <li class="nav-item">
+            <li class="nav-item animated bounceIn">
               <a class="nav-link" href="twitter.html">
                 <i class="fa fa-twitter fa-fw"></i>
                 Twitter
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item animated bounceIn">
               <a class="nav-link" href="facebook.html">
                 <i class="fa fa-facebook fa-fw"></i>
                 Facebook
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item animated bounceIn">
               <a class="nav-link" href="instagram.html">
                 <i class="fa fa-instagram fa-fw"></i>
                 Instagram
@@ -99,13 +104,13 @@
             </a>
           </h6>
           <ul class="nav flex-column mb-2">
-            <li class="nav-item">
+            <li class="nav-item animated bounceIn">
               <a class="nav-link" href="reach.html">
                 <span data-feather="layers"></span>
                 Gtbank
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item animated bounceIn">
               <a class="nav-link" href="reach.html">
                 <span data-feather="file-text"></span>
                 Fidelity
@@ -155,7 +160,7 @@
                     <img src="img/facebook.svg" alt="" srcset="" height="20px" class="img-01" >
                   <h5 class="card-title text-center">Growth of Followers</h5>
 
-                  <canvas class="my-4" id="myChart" width="900" height="500"></canvas>
+                  <canvas class="my-4 animate fadeInDown" id="myChart" width="900" height="500"></canvas>
                 </div>
               </div>
             </div>
@@ -166,7 +171,7 @@
                     <img src="img/facebook.svg" alt="" srcset="" height="20px" class="img-01" >
                   <h5 class="card-title text-center">Gender Distribution</h5>
 
-                  <canvas class="my-4" id="pChart" width="900" height="500"></canvas>
+                  <canvas class="my-4 " id="pChart" width="900" height="500"></canvas>
                 </div>
               </div>
             </div>
@@ -206,7 +211,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="card">
+            <div class="card animated pulse">
               <div class="card-body">
                   <img src="img/twitter.svg" alt="" srcset="" height="20px" class="img-01" >
                 <h5 class="card-title text-center">Growth of Followers</h5>
@@ -217,7 +222,7 @@
           </div>
 
           <div class="col-md-6">
-              <div class="card">
+              <div class="card animated pulse">
                 <div class="card-body">
                     <img src="img/twitter.svg" alt="" srcset="" height="20px" class="img-01" >
                   <h5 class="card-title text-center">Gender Distribution</h5>
@@ -231,7 +236,7 @@
         <br> 
         <div class="row">
             <div class="col-md-6">
-              <div class="card">
+              <div class="card animated pulse">
                 <div class="card-body">
                     <img src="img/twitter.svg" alt="" srcset="" height="20px" class="img-01" >
                   <h5 class="card-title text-center">Location of Followers</h5>
@@ -242,7 +247,7 @@
             </div>
   
             <div class="col-md-6">
-              <div class="card">
+              <div class="card animated pulse">
                 <div class="card-body">
                     <img src="img/twitter.svg" alt="" srcset="" height="20px" class="img-01" >
                   <h5 class="card-title text-center">Popularity Distribution</h5>
@@ -260,7 +265,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="card">
+            <div class="card animated pulse">
               <div class="card-body">
                   <img src="img/instagram.svg" alt="" srcset="" height="20px" class="img-01" >
                 <h5 class="card-title text-center">Growth of Followers</h5>
@@ -271,7 +276,7 @@
           </div>
 
           <div class="col-md-6">
-              <div class="card">
+              <div class="card animated pulse">
                 <div class="card-body">
                     <img src="img/instagram.svg" alt="" srcset="" height="20px" class="img-01" >
                   <h5 class="card-title text-center">Gender Distribution</h5>
@@ -285,7 +290,7 @@
         <br> 
         <div class="row">
             <div class="col-md-6">
-              <div class="card">
+              <div class="card animated pulse">
                 <div class="card-body">
                     <img src="img/instagram.svg" alt="" srcset="" height="20px" class="img-01" >
                   <h5 class="card-title text-center">Location of Followers</h5>
@@ -296,7 +301,7 @@
             </div>
   
             <div class="col-md-6">
-              <div class="card">
+              <div class="card animated pulse">
                 <div class="card-body">
                     <img src="img/instagram.svg" alt="" srcset="" height="20px" class="img-01" >
                   <h5 class="card-title text-center">Popularity Distribution</h5>
@@ -358,6 +363,9 @@
              }]
            },
            options: {
+            animation: {
+              duration: 5000
+            },
              scales: {
                yAxes: [{
                  ticks: {
@@ -398,6 +406,9 @@
          }]
        },
        options: {
+        animation: {
+              duration: 5000
+            },
          scales: {
            yAxes: [{
              ticks: {
@@ -438,6 +449,9 @@
          }]
        },
        options: {
+        animation: {
+              duration: 5000
+            },
          scales: {
            yAxes: [{
              ticks: {
@@ -477,6 +491,9 @@
          }]
        },
        options: {
+        animation: {
+              duration: 5000
+            },
          scales: {
            yAxes: [{
              ticks: {
@@ -514,8 +531,11 @@
            ],
            borderWidth: 1
          }]
-       },
+        },
        options: {
+        animation: {
+              duration: 5000
+            },
          scales: {
            yAxes: [{
              ticks: {
@@ -546,9 +566,12 @@
                ],
                borderWidth: 1        
              }],
+           },
+           options: {
+        animation: {
+              duration: 5000
+            },
            }
- 
- 
  
          });
        </script>
@@ -571,8 +594,12 @@
          ],
          borderWidth: 1        
        }],
-     }
- 
+     },
+     options: {
+        animation: {
+              duration: 5000
+            },
+           }
  
  
    });
@@ -596,8 +623,12 @@
          ],
          borderWidth: 1        
        }],
-     }
- 
+     },
+     options: {
+        animation: {
+              duration: 5000
+            },
+           }
  
  
    });
@@ -619,6 +650,9 @@
                }]
              },
              options: {
+              animation: {
+              duration: 5000
+            },
                scales: {
                  yAxes: [{
                    ticks: {
@@ -647,8 +681,11 @@
            borderWidth: 4,
            pointBackgroundColor: '#007bff'
          }]
-       },
-       options: {
+      },
+             options: {
+              animation: {
+              duration: 5000
+            },
          scales: {
            yAxes: [{
              ticks: {
@@ -676,8 +713,11 @@
              borderWidth: 4,
              pointBackgroundColor: '#007bff'
            }]
-         },
-         options: {
+          },
+             options: {
+              animation: {
+              duration: 5000
+            },
            scales: {
              yAxes: [{
                ticks: {
@@ -719,8 +759,11 @@
            ],
            borderWidth: 1
          }]
-       },
-       options: {
+        },
+             options: {
+              animation: {
+              duration: 5000
+            },
          scales: {
            yAxes: [{
              ticks: {
