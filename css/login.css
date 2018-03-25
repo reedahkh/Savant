@@ -65,6 +65,7 @@ html, body{
 /*font size*/
 .f-14{
 	font-size: 14px;
+	margin-top: -1em;
 }
 .f-16{
 	font-size:16px;
@@ -79,7 +80,8 @@ html, body{
 	font-size: 34px;
 }
 .f-36{
-	font-size: 36px;
+	font-size: 24px;
+	margin-top: -2em;
 }
 .f-48{
 	font-size: 48px;
@@ -96,8 +98,11 @@ html, body{
 	top:-1.5em
 }
 .p-60{
-	padding: 60px;
+	padding: 70px;
+	margin-top: -4em;
 }
+
+
 /*Home page*/
 .form_card-small{
 	width: 493px;
@@ -122,10 +127,14 @@ html, body{
 }
 
 .ok2{
-	margin-left: 25%;
+	margin-left: 20%;
+}
+
+.ok3{
+	margin-left: 14%;
 }
 .data{
-	margin-left: 23%;
+	margin-left: 20%;
 }
 i.fa {
 	display: inline-block;
@@ -596,7 +605,7 @@ ul.price_benefits li{
 	width: 40px;
 	
 }
-./*panel-title > .icons:hover, 
+/*panel-title > .icons:hover, 
 .panel-title > .icons:active, 
 .panel-title > .icons:focus  {
     text-decoration:none;
@@ -634,11 +643,20 @@ ul.price_benefits li{
 	color: #828282;
 }
 .form_card{
-	width: 493px;
-	height: 881px;
+	width: 470px;
+	height: 650px;
 	background: #FFFFFF;
 	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
-	margin-top:-5em;
+	margin-top:-6em;
+	margin-left: 50%;
+	padding-top: 84px;
+}
+.form_card_2{
+	width: 470px;
+	height: 680px;
+	background: #FFFFFF;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+	margin-top:-6em;
 	margin-left: 50%;
 	padding-top: 84px;
 }
@@ -1019,7 +1037,7 @@ footer{
 	    margin: 20px 2em;
 	}
 	.login_form{
-		padding:20px;
+		padding:10px;
 	}
 	.control {
 		display: block;
