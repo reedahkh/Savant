@@ -1,0 +1,100 @@
+body{
+    background-color: #F7F7F7;
+}
+
+.h_1{
+    margin-left: 30%;
+}
+
+h3{
+    margin-right: 20%;
+}
+.wow{
+  margin-left: -3em,
+}
+
+.icons{
+    list-style-type: none;
+}
+
+.hr_1{
+    width: 100%;
+}
+
+.first_div{
+    background-color: white;
+}
+
+input[type=text] {
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    
+}
+
+.card{
+    border-radius: 0;
+}
+.shift{
+    margin-left: 50%;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.second_div{
+    margin-left: -1em;
+}
+
+.details{
+    margin-top: -1em;
+}
+
+.ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.ul_0{
+    margin-left: 40%;
+}
+
+.ul_2{
+    margin-left: 23%;
+}
+
+.hr_2{
+    width: 100%;
+    margin-left: -2em;
+}
+.ol li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 15%;
+}
+
+.ol{
+    margin-left: -4em;
+}
+
+.lol{
+    background-color: white;
+    height: 5%;
+    margin-left: -1.8em;
+}
+.fa-circle{
+    color: green;
+}
+
+.lol_0{
+    margin-left: -1em;
+}
+.check{
+    margin-left: 2em;
+}
