@@ -5,7 +5,7 @@
 	<!-- meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Savant</title>
+	<title>Mentions</title>
 
 	<!-- favicon -->
 	<link rel="icon" href="img/savant.png" sizes="16x16" type="image/png">
@@ -75,12 +75,12 @@
                     <p class="h_1 text-muted">500 Mentions</p>
                     <hr class="hr_1"> 
                     <ul class="icons">
-                        <li><i class="fa fa-envelope-open active" aria-hidden="true">&nbsp;&nbsp;&nbsp;Inbox</i></li>
-                        <li><i class="fa fa-envelope-open" aria-hidden="true">&nbsp;&nbsp;&nbsp;Unread</i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Favorites</li>
-                        <li><i class="fa fa-archive" aria-hidden="true">&nbsp;&nbsp;&nbsp;Archive</i></li>
-                        <li><i class="fa fa-trash" aria-hidden="true">&nbsp;&nbsp;&nbsp;Trash</i></li>
-                        <li><i class="fa fa-exclamation-circle" aria-hidden="true">&nbsp;&nbsp;&nbsp;Spam</i></li>
+                        <li><i class="fa fa-envelope-open active" aria-hidden="true"></i><a class="inbox" href="#">&nbsp;&nbsp;&nbsp;Inbox</a></li>
+                        <li><i class="fa fa-envelope-open" aria-hidden="true"></i><a class="unread" href="#">&nbsp;&nbsp;&nbsp;Unread</a></li>
+                        <li><i class="fa fa-star" aria-hidden="true"></i><a class="fav" href="#">&nbsp;&nbsp;&nbsp;Favorite</a></li>
+                        <li><i class="fa fa-archive" aria-hidden="true"></i><a class="arch" href="#">&nbsp;&nbsp;&nbsp;Archive</a></li>
+                        <li><i class="fa fa-trash" aria-hidden="true"></i><a class="trash" href="#">&nbsp;&nbsp;&nbsp;Trash</a></li>
+                        <li><i class="fa fa-exclamation-circle" aria-hidden="true"></i><a class="spam" href="#">&nbsp;&nbsp;&nbsp;Spam</a></li>
                     </ul>
 
            </div>
@@ -89,7 +89,7 @@
            <div class="col-12 col-md-5 second_div">
                 <form>
                         <input type="text" name="search" placeholder="&#x1f50d; Search.." class="border-right-0">
-                        <input type="checkbox" class="ml-3" aria-label="Checkbox for following text input" data-toggle="modal" data-target="#exampleModalCenter">
+                        <input type="checkbox" class="ml-3" id="checkbox" data-toggle="modal" data-target="#exampleModalCenter" /> 
                         <i class="fa fa-filter ml-3" aria-hidden="true"></i>
                         <!-- Modal -->
                         <div class="modal" tabindex="-1" role="dialog" id="exampleModalCenter" >
@@ -106,8 +106,8 @@
                                         </button>
                                       </div>
                     
-                                      <p class="text-center">All your Mentions will be marked as Read</p>
-                                      <div class="check">
+                                      <p class="text-center" style="color:#333333;">All your Mentions will be marked as Read</p>
+                                      <div class="check text-muted">
                                       <input type="checkbox" aria-label="Checkbox for following text input">&nbsp;&nbsp;Don't show me this confirmation in the future again
                                     </div>
                                       <div class="d-flex pr-5 pl-5 mt-5 mb-3">
@@ -155,9 +155,9 @@
                                         </button>
                                       </div>
                     
-                                      <p class="text-center h6">Are you sure you want to block all future mentions
+                                      <p class="text-center h6" style="color:#333333;">Are you sure you want to block all future mentions
                                             coming from https://twitter.com/Mr_Nixus?</p>
-                                      <div class="check">
+                                      <div class="check text-muted">
                                             All future mentions coming from this URL will be blocked and ignored.
                                             Existing mentions will automatically go to trash
                                     </div>

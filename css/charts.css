@@ -60,6 +60,11 @@ outline:none;
     margin-right: 90px;
     border: none;
   }
+   
+  .btn-outline-secondary:hover{
+    background-color: #fff;
+    color: #333;
+  }
 
   .jaiz{
     margin-right: 28px;
@@ -125,11 +130,11 @@ outline:none;
  
 }
 
-.btn-success{
+/* .btn-success{
   margin-left: 70%;
   margin-top: -76px;;
   border-radius: 0;
-}
+} */
 
 .form-control:focus{
   outline:0;
